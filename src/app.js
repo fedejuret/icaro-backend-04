@@ -39,7 +39,7 @@ app.get('/', (req, res) => {
     });
 });
 
-app.get('/product', function(req, res) {
+app.get('/products', function(req, res) {
 
     res.render('product');
 
